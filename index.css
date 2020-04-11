@@ -1,3 +1,57 @@
+@font-face {
+    font-family: Helvetica;
+    src:local("./font/Helvetica_33244fbeea10f093ae87de7a994c3697.ttf");
+}
+
 body{
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    width: 100%;
+    color: seashell;
+}
+
+header{
+    background: black;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+}
+header img{
+    height: 50px;
+    margin: 10px;
+
+}
+ul{
+    color: seashell;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+header li{
+    margin: 10px;
+    text-decoration: underline;
+}
+.main-container{
+    position: relative;
+    background-color: black;
+}
+.main-container section{
+    width: 90%;
+    height: 700px;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    margin: 0 auto;
+}
+.tea-of-the-month{
+    position: relative;
+}
+.locations{
+    position: relative;
+}
+footer{
+    position: relative;
 }
