@@ -24,11 +24,15 @@ header{
     padding: 0;
     position: fixed;
     z-index: 1;
+    top: 0;
 }
 header img{
     height: 50px;
     margin: 10px;
 
+}
+a:link{
+    color: seashell;
 }
 ul{
     color: seashell;
@@ -64,7 +68,7 @@ header li{
     /* This is what makes the background image rescale based
         on the container's size */
     background-size: cover;
-    padding-top: 70px;
+    margin-top: 70px;
 }
 .main-container section{
     background-color: black;
