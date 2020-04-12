@@ -1,6 +1,7 @@
 <html>
     <head>
         <link href="./index.css" type="text/css" rel="stylesheet">
+        
         <title>Tea Cozy</title>
     </head>
     <body>
@@ -8,22 +9,25 @@
             <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png" class="logo">
             <nav>
                 <ul>
-                    <li>Mission</li>
-                    <li>Featured Tea</li>
-                    <li>Locations</li>
+                    <li><a href="#mission">Mission</a></li>
+                    <li><a href="#featured-tea">Featured Tea</a></li>
+                    <li><a href="#location">Locations</a></li>
                 </ul>
             </nav>
         </header>
-        <div class="main-container">
-            <section>
+        <div class="main-container" id="mission">
+            <section class="sec-one">
                 <!--Add a background to this section-->
-                <h2>Our Mission</h2>
-                <h4>Handpicked, Artisanally curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
+                <h2 class="main-section">Our Mission</h2>
+                <h4 class="main-section">Handpicked, Artisanally curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
             </section>
         </div>
-        <section class="tea-of-the-month">
-            <h2>Tea of the Month</h2>
-            <h4>What's steeping at the Tea Cozy?</h4>
+        <div class="tea-of-the-month" id="featured-tea">
+            <section>
+                <h2>Tea of the Month</h2>
+                <h4>What's steeping at the Tea Cozy?</h4>
+            </section>
+            
             <ul>
                 <li>
                     <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg" alt="Fall Berry Blitz Tea">
@@ -46,41 +50,42 @@
                     <h4>Bedford Bizzare Tea</h4>
                 </li>
             </ul>
-        </section>
-        <div class="locations">
-            <section>
+        </div>
+        <div class="locations" id="location">
+            <section class="main-card">
                 <h2>Locations</h2>
-                <section class="card">
-                    <ul>
-                        <li><h3>Downtown</h3></li>
-                        <li>384 West 4th St</li>
-                        <li>Suite 108</li>
-                        <li>Portland, Maine</li>
-                    </ul>
-                </section>
-                <section class="card">
-                    <ul>
-                        <li><h3>East Bayside</h3></li>
-                        <li>3433 Phisherman's Ave</li>
-                        <li>(Northwest Corner)</li>
-                        <li>Portland, Maine</li>
-                    </ul>
-                </section>
-                <section class="card">
-                    <ul>
-                        <li><h3>Downtown</h3></li>
-                        <li>515 Crescent Ave</li>
-                        <li>Second Floor</li>
-                        <li>Portland, Maine</li>
-                    </ul>
-                </section>
+            </section>
+            <section class="card">
+                <ul>
+                    <li><h3>Downtown</h3></li>
+                    <li>384 West 4th St</li>
+                    <li>Suite 108</li>
+                    <li>Portland, Maine</li>
+                </ul>
+                <ul>
+                    <li><h3>East Bayside</h3></li>
+                    <li>3433 Phisherman's Ave</li>
+                    <li>(Northwest Corner)</li>
+                    <li>Portland, Maine</li>
+                </ul>
+                <ul>
+                    <li><h3>Downtown</h3></li>
+                    <li>515 Crescent Ave</li>
+                    <li>Second Floor</li>
+                    <li>Portland, Maine</li>
+                </ul>
             </section>
         </div>
         <footer>
-            <h2>The Tea Cozy</h2>
-            <h5>contact@teacozy.com</h5>
-            <h5>917-555-8904</h5>
-            <h5>copyright The Tea Cozy 2017</h5>
+            <section class="footer1">
+                <h2>The Tea Cozy</h2>
+                <h5>contact@teacozy.com</h5>
+                <h5>917-555-8904</h5>
+            </section>
+            <section class="footer2">
+                <h5>copyright The Tea Cozy 2017</h5>
+            </section>
+            
         </footer>
         
     </body>
