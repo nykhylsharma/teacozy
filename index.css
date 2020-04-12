@@ -44,7 +44,7 @@ header li{
 }
 .main-container{
     position: relative;
-    background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
     width: 80%;
     height: 700px;
     margin: 0px auto;
@@ -64,6 +64,7 @@ header li{
     /* This is what makes the background image rescale based
         on the container's size */
     background-size: cover;
+    padding-top: 70px;
 }
 .main-container section{
     background-color: black;
